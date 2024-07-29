@@ -1,0 +1,4 @@
+def display(str):
+    print(str)
+str="mississiooi"
+display(str)
