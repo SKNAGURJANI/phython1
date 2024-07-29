@@ -1,0 +1,16 @@
+def num(a,b):
+  if a==b:
+      return 0
+  if a>b:
+      return 1
+  if a<b:
+      return -1
+a= int(input(" enter the number of a:"))
+b= int(input(" enter the number of b :"))
+result=num(a,b)
+if a==b:
+    print("a is equal to b ")
+if a>b:
+    print("a is greater to b")
+if a<b:
+    print(" a is less than to b")
